@@ -1,0 +1,110 @@
+.ui.grid {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ui.grid>.grey.column, .ui.grid>.grey.row, .ui.grid>.row>.grey.column {
+    background-color: #F2F2F2!important;
+    /* color: #fff; */
+    border-radius: 0px;
+}
+.ui.grid>.row>.black.column, .ui.grid>.row>.blue.column, .ui.grid>.row>.brown.column, .ui.grid>.row>.green.column, .ui.grid>.row>.grey.column, .ui.grid>.row>.olive.column, .ui.grid>.row>.orange.column, .ui.grid>.row>.pink.column, .ui.grid>.row>.purple.column, .ui.grid>.row>.red.column, .ui.grid>.row>.teal.column, .ui.grid>.row>.violet.column, .ui.grid>.row>.yellow.column {
+    margin-bottom: 0;
+}
+
+
+#goal{
+   /* Rectangle 8 */
+    background-image: url('Quad.jpg');
+    background-color: rgba(54, 129, 128, 0.6);
+    background-blend-mode: soft-light;
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center; 
+   
+}
+
+#neighborhood-box > .column{
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-bottom: 0;
+}
+
+.row > .column#specialneighborhood, .row > .column#specialneighborhood1{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 45px;
+    color: #368180;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px!important;
+}
+
+#neighborhood-flex{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#undergrad-special{
+    margin-bottom: -1rem;
+}
+
+#collegebox{
+    margin: 0;
+    padding-left: 23px;
+    padding-right: 23px;
+    width: 100%;
+}
+
+.pics_in_a_row {
+    display: flex;
+}
+
+.img1 { 
+    width: 63%;
+    height: 600px;
+    object-fit: cover;
+    object-position: bottom;
+    padding-right: 9px; 
+}
+.img2 { 
+    width: 37%;
+    height: 600px;
+    object-fit: cover;
+    object-position: bottom;
+    padding-left: 9px;
+}
+.img3 { 
+    width: 36.8%;
+    height: 380px;
+    object-fit: cover;
+    object-position: bottom;
+    padding-right: 9px; 
+    margin-top: 22px;
+}
+.img4 { 
+    width: 63.2%;
+    height: 380px;
+    object-fit: cover;
+    object-position: bottom;
+    padding-left: 9px;
+    margin-top: 22px;
+}
+
+.alumcolumn{
+    padding: 0!important;
+    min-height: 911px;
+}
+  
+.alumdark{
+    background: #F2F2F2;
+    border-radius: 0px;
+}
+
+.alumlight{
+    background: #FAFAFA;
+    border-radius: 0px;
+}
